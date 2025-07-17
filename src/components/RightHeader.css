@@ -1,0 +1,57 @@
+.right-header {
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.right-icon {
+  font-size: 18px;
+  color: #4b5563;
+  cursor: pointer;
+}
+
+.notification-wrapper {
+  position: relative;
+}
+
+.notification-dot {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  height: 8px;
+  width: 8px;
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #f3f4f6;
+  padding: 6px 10px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.search-icon {
+  font-size: 14px;
+  margin-right: 6px;
+  color: #9ca3af;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+  width: 100%;
+  color: #374151;
+}

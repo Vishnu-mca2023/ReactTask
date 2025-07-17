@@ -1,0 +1,73 @@
+.personal-info-sidebar {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 20px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #374151;
+  font-size: 14px;
+}
+
+.info-list svg {
+  margin-right: 10px;
+  color: #6b7280;
+  font-size: 16px;
+}
+
+.info-list a {
+  color: #ef4444;
+  text-decoration: none;
+}
+
+.active-status {
+  color: #10b981;
+  font-weight: 600;
+}
+
+.status-icon {
+  color: #10b981;
+}
+
+.info-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* increased spacing between items */
+  color: #374151;
+  font-size: 14px;
+  gap: 10px;
+}
+
+
+/* Add universal support for different icon types */
+.info-list svg,
+.info-list i,
+.info-list .icon {
+  color: #6b7280;
+  font-size: 16px;
+}
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* adds consistent spacing between each <li> */
+}
